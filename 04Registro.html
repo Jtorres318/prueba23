@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	<link href="formulario1.css" rel="stylesheet" type="text/css" />
+	<link href="formulario2.css" rel="stylesheet" type="text/css" />
+	<link href="formulario3.css" rel="stylesheet" type="text/css" />
+    <title>Registro</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="ultimos" href="01Login.php">Regresar</a>
+      </nav>
+    </header>
+    <main>
+    <h1>BIENVENIDO A TELCOMUNDO</h1>
+    <div class="Login">
+      <form action="04Registro.php" method="post">
+        <div class='field'>
+          <label>Id</label>
+          <input name='id_usuario' type='number' required autocomplete />
+        </div>
+        <div class='field'>
+          <label>Id Rol</label>
+          <input name='id_rol' type='number' required autocomplete />
+        </div>
+        <div class='field'>
+          <label>Nombres</label>
+          <input type="text" name="nombre" size="40"required autocomplete >
+        </div>
+        <div class='field'>
+          <label>Apellidos</label>
+          <input name='apellido' type='text' autocomplete />
+        </div>
+        <div class='field'>
+          <label>Teléfono</label>
+          <input name='tel' type='number' autocomplete />
+        </div>
+        <div class='field'>
+          <label>Email</label>
+          <input name='correo' type='text' autocomplete />
+        </div>
+        <div class='field'>
+          <label>Direccion</label>
+          <input name='direccion' type='text' autocomplete />
+        </div>
+        <div class='field'>
+          <label>Contraseña</label>
+          <input name='contraseña' type='password' autocomplete />
+        </div>
+        <div class='field'>
+          <label>Confirme contraseña</label>
+          <input name='repetir_contraseña' type='password' autocomplete />
+        </div>
+        <div class='submit'>
+          <button>
+            REGISTRARME
+          </button>
+        </div>
+      </form>
+      </div>
+    </main>
+  </body>
+
+  <footer>
+      
+    </div>
+
+  </footer>
+</html>

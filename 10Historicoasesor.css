@@ -1,0 +1,47 @@
+*{
+    font-size: xx-large;
+    letter-spacing: 2px;
+    text-transform:capitalize;
+    font-weight: 900px;
+    background-color: #313d52;
+    font-variant:small-caps; 
+    font-style: italic;
+    display: flexbox;
+
+}
+body{
+    text-align: right;
+   
+}
+h1{
+    font-size: xx-large;
+    text-align: left;
+    border-top: 20mm;
+}
+a{
+    padding-left: 900px;
+	color: #27B4CD;
+}
+h2{
+    font-size: xx-large;
+    text-align: right;
+    word-spacing: 100%;
+    
+}
+table{
+    font-size: xx-large;
+   color: black;
+}
+
+table{
+    background-color:black;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%
+ 
+}
+
+th, td{
+    border: solid 0.2px black;
+    padding: 0%;
+}

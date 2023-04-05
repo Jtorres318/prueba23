@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    font-size:x-large;
+    background: #313D52;
+}
+a{
+  	padding-left: 900px;
+	color: #27B4CD;
+	display: block;
+}
+
+h1{
+   
+    font-size:xx-large;
+    font-family: fantasy;
+    font-weight: 1000;
+    text-transform: capitalize;
+    margin: 5%;
+}
+.Login input {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  
+  .Login input{
+    border-bottom: 1px solid white;
+    background: rgb(126, 118, 118);
+    outline: 12px;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+  }
+  .Login input[type="submit"]{
+    border-bottom: 1px solid white;
+    background: rgb(14, 13, 100);
+    outline: 12px;
+    height: 40px;
+    color: rgb(248, 246, 246);
+    font-size: 16px;
+  }
+  
+
+
